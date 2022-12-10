@@ -1,3 +1,14 @@
+
+.app-title-container{
+    border: 4px double black;
+    background-color:white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
 .app-title{
     text-align: center;
 }
