@@ -30,6 +30,17 @@ function Home() {
             </div>
 
             <div className="notes-container">
+                {
+                    notes.map((note,i)=>{
+                        return (
+                            <div>
+                                <h1>{note.title}</h1>
+                                <p>{note.content}</p>
+
+                            </div>
+                        )
+                    })
+                }
             </div>
 
         </div>
