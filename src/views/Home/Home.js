@@ -28,6 +28,10 @@ function Home() {
             <div  className="app-title-container">
                 <h1  className="app-title">my notes</h1>
             </div>
+
+            <div className="notes-container">
+            </div>
+
         </div>
     )
 }
