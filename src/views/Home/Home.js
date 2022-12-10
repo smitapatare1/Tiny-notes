@@ -25,7 +25,7 @@ function Home(){
     return(
             <div>
                 <NavBar/>
-                <h1 className="app-title">all notes</h1>                
+                <h1 className="app-title">my notes</h1>                
             </div>
     )
 }
